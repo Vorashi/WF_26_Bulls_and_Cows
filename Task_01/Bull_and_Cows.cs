@@ -115,7 +115,6 @@ namespace Task_01
             lblUserNumber.Visible = true;
             LblResult.Visible = true;
             tbxInput.Visible = true;
-            /*Controls["Programm"].Controls.Clear();*/
             Controls.RemoveByKey("Programm");
         }
 
@@ -158,6 +157,5 @@ namespace Task_01
                 MessageBox.Show("Введите 4-х значное число!");
             }
         }
-
     }
 }
